@@ -1,0 +1,105 @@
+.bg-position {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .container {
+    width: 60%;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    row-gap: 20px;
+    position: relative;
+   }
+
+   .item {
+    background-color: rgba(218, 218, 218, 0.85);
+    border-radius: 17px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >h1 {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.794);
+      position: relative;
+      margin: 10px;
+
+    }
+
+   >p {
+    margin: 10px;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.777);
+   }
+
+  }
+
+  .item-1 {
+    background-color: rgba(218, 218, 218, 0.85);
+    border-radius: 17px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    >h1 {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.794);
+        position: relative;
+        margin: 10px;
+        text-align: end;
+   }
+
+   >p {
+    margin: 10px;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.777);
+    text-align: right;
+   }
+
+  }
+
+  .itemm {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    >img {
+        position: relative;
+        display: flex;
+        margin: auto;
+        width: 62%;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: left;
+       }
+
+  }
+
+  button {
+    background-color: rgb(42, 239, 25, 1);
+    margin: 10px;
+    width: 85px;
+    height: 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12.5px;
+    font-weight: bold;
+    cursor: pointer;
+  }

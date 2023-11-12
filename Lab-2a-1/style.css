@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to bottom, rgb(41, 49, 122) 50%, rgb(194, 205, 226) 50%);
+    margin: 0;
+}
+
+.title{
+    font-size:40px;
+    text-align: center;
+    padding-top: 30px ;
+    color: whitesmoke;
+}
+
+span {
+    color: red;
+}
+
+.bg-pos {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 58%;
+    height: 460px;
+}
+
+.left-st {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.picture1-big {
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 99%;
+        height: 50%;
+    }
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.picture1-small {
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 98%;
+        height: 90%;
+    }
+}
+
+.picture2-small {
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 98%;
+        height: 90%;
+    }
+}
+
+.right-st {
+    height: 100%;
+    width: 50%;
+}
+
+
+.cont-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.picture3-small {
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 98%;
+        height: 90%;
+    }
+}
+
+.picture4-small {
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 98%;
+        height: 90%;
+    }
+}
+
+.picture2-big {
+    position: relative;
+    bottom: 12px;
+    padding: 10px;
+    >img {
+        background-size: cover;
+        width: 99%;
+        height: 50%;
+    }
+}
+
+p {
+    position: relative;
+    z-index: 3;
+}
